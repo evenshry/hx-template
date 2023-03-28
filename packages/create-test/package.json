@@ -6,6 +6,6 @@
     "create-template": "@hx/create-template"
   },
   "dependencies": {
-    "@hx/create-template": "workspace:1.0.1"
+    "@hx/create-template": "^1.0.0"
   }
 }
