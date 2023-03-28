@@ -11,7 +11,7 @@ const __dirname = dirname(fileURLToPath(import.meta.url));
 // packages项目列表目录
 const packagesPath = path.resolve(__dirname, "../../../");
 // CLI项目模版目录
-const destinationPath = path.resolve(__dirname, "../../../create-template/template/");
+const destinationPath = path.resolve(__dirname, "../../../create-template/src/template/");
 // 忽略列表
 const ignoreList = ["node_modules", ".DS_Store"];
 

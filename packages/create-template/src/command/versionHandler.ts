@@ -6,7 +6,7 @@ import { fileURLToPath } from "node:url";
 import { dirname } from "node:path";
 
 // 获取当前文件夹
-const __dirname = dirname(fileURLToPath(import.meta.url));
+// const __dirname = dirname(fileURLToPath(import.meta.url));
 // 回到项目根目录
 const basePath = path.resolve(__dirname, "../../");
 

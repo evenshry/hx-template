@@ -1,5 +1,4 @@
 #! /usr/bin/env node
-import download from "download-git-repo";
 import chalk from "chalk";
 import prompts from "prompts";
 import ora from "ora";
@@ -9,9 +8,9 @@ import { fileURLToPath } from "node:url";
 import { dirname } from "node:path";
 
 // 获取当前文件夹
-const __dirname = dirname(fileURLToPath(import.meta.url));
+// const __dirname = dirname(fileURLToPath(import.meta.url));
 // 模版目录
-const templatePath = path.resolve(__dirname, "../../template/");
+const templatePath = path.resolve(__dirname, "../template/");
 
 // 输入表单定义
 const promptsOptions: Array<prompts.PromptObject> = [

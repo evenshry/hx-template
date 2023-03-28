@@ -1,1 +1,1 @@
-declare module 'download-git-repo';
+declare module 'rollup-plugin-copy';

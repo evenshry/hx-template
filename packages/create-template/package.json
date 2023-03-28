@@ -7,8 +7,8 @@
   },
   "main": "dist/main.js",
   "scripts": {
-    "dev": "tsc && node dist/main.js",
-    "build": "tsc",
+    "dev": "rollup -c && node dist/main.js",
+    "build": "rollup -c",
     "release": "release-it"
   },
   "keywords": [
@@ -31,6 +31,7 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
+    "@rollup/plugin-json": "^6.0.0",
     "@types/command-line-args": "^5.2.0",
     "@types/command-line-usage": "^5.0.2",
     "@types/prompts": "^2.4.3",
@@ -41,6 +42,13 @@
     "ora": "^6.2.0",
     "prompts": "^2.4.2",
     "release-it": "^15.9.1",
+    "rollup": "^3.20.2",
+    "rollup-plugin-commonjs": "^10.1.0",
+    "rollup-plugin-copy": "^3.4.0",
+    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript": "^1.0.1",
+    "tslib": "^2.5.0",
     "typescript": "^5.0.2"
   }
 }
