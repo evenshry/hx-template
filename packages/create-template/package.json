@@ -1,9 +1,10 @@
 {
-  "name": "create-hx-template",
+  "name": "create-template",
   "version": "1.0.0",
-  "description": "create-hx-template",
+  "packageManager": "yarn@3.5.0",
+  "description": "create-template",
   "bin": {
-    "create-hx": "dist/main.js"
+    "create-template": "dist/main.js"
   },
   "scripts": {
     "dev": "tsc && node dist/main.js",

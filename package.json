@@ -1,12 +1,8 @@
 {
-  "name": "mult-project-package",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC"
+  "name": "hx-template",
+  "private": true,
+  "packageManager": "yarn@3.5.0",
+  "workspaces": [
+    "packages/*"
+  ]
 }

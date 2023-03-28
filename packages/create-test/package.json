@@ -1,0 +1,11 @@
+{
+  "name": "create-test",
+  "version": "1.0.0",
+  "packageManager": "yarn@3.5.0",
+  "scripts": {
+    "create-template": "create-template"
+  },
+  "dependencies": {
+    "create-template": "workspace:*"
+  }
+}
