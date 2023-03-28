@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "packageManager": "yarn@3.5.0",
   "scripts": {
-    "create-template": "@hx/create-template"
+    "create-template": "@evenshry/create-template"
   },
   "dependencies": {
-    "@hx/create-template": "^1.0.0"
+    "@evenshry/create-template": "^1.0.0"
   }
 }

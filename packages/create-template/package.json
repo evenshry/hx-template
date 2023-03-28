@@ -1,10 +1,10 @@
 {
-  "name": "@hx/create-template",
+  "name": "@evenshry/create-template",
   "version": "1.0.0",
   "packageManager": "yarn@3.5.0",
   "description": "@hx/create-template",
   "bin": {
-    "@hx/create-template": "dist/main.js"
+    "@evenshry/create-template": "dist/main.js"
   },
   "scripts": {
     "dev": "tsc && node dist/main.js",
