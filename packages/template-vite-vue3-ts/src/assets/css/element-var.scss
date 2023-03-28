@@ -1,0 +1,32 @@
+/* 改变主题色变量 */
+/* just override what you need */
+@forward 'element-plus/theme-chalk/src/common/var.scss' with (
+  $colors: (
+    "white": #ffffff,
+    "black": #333,
+    "primary": (
+      "base": #006EFF
+    ),
+    "success": (
+      "base": #67c23a
+    ),
+    "warning": (
+      "base": #e6a23c
+    ),
+    "danger": (
+      "base": #f56c6c
+    ),
+    "error": (
+      "base": #f56c6c
+    ),
+    "info": (
+      "base": #909399
+    )
+  )
+);
+
+// If you just import on demand, you can ignore the following content.
+// 如果你想导入所有样式:
+@use "element-plus/theme-chalk/src/index.scss" as *;
+
+

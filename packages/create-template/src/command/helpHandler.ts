@@ -15,7 +15,7 @@ const helpSections:commandLineUsage.Section[] = [
         name: "version",
         alias: 'v',
         typeLabel: "{underline boolean}",
-        description: "version of create-hx"
+        description: "version of create-template"
       },
       {
         name: 'help',
