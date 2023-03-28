@@ -4,5 +4,11 @@
   "packageManager": "yarn@3.5.0",
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "dev": "yarn workspace create-template run dev",
+    "test": "yarn workspace create-test run create-template",
+    "build": "yarn workspace create-template run build",
+    "release": "yarn workspace create-template run release"
+  }
 }

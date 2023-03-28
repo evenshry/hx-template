@@ -1,24 +1,25 @@
 {
-  "name": "create-template",
+  "name": "@hx/create-template",
   "version": "1.0.0",
   "packageManager": "yarn@3.5.0",
-  "description": "create-template",
+  "description": "@hx/create-template",
   "bin": {
-    "create-template": "dist/main.js"
+    "@hx/create-template": "dist/main.js"
   },
   "scripts": {
     "dev": "tsc && node dist/main.js",
     "build": "tsc",
-    "release": "tsc && release-it"
+    "release": "release-it"
   },
   "keywords": [
     "create",
     "cli",
     "hx"
   ],
-  "author": "shiyuan",
+  "author": "evenshry",
   "type": "module",
   "license": "ISC",
+  "release-it": {},
   "dependencies": {
     "@types/command-line-args": "^5.2.0",
     "@types/command-line-usage": "^5.0.2",
