@@ -4,8 +4,9 @@
   "packageManager": "yarn@3.5.0",
   "description": "@evenshry/create-template",
   "bin": {
-    "@evenshry/create-template": "dist/main.js"
+    "create-template": "dist/main.js"
   },
+  "main": "dist/main.js",
   "scripts": {
     "dev": "tsc && node dist/main.js",
     "build": "tsc",
@@ -18,6 +19,9 @@
   "author": "evenshry",
   "type": "module",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "release-it": {},
   "repository": {
     "type": "git",

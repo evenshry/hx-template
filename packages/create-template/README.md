@@ -3,5 +3,5 @@
 ## Project create
 
 ```sh
-yarn @evenshry/create-template
+yarn create @evenshry/template
 ```
