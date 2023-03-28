@@ -1,6 +1,6 @@
 {
   "name": "@evenshry/create-template",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "@evenshry/create-template",
   "bin": {
     "create-template": "dist/main.js"
@@ -46,7 +46,6 @@
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-copy": "^3.4.0",
     "rollup-plugin-node-resolve": "^5.2.0",
-    "rollup-plugin-terser": "^7.0.2",
     "rollup-plugin-typescript": "^1.0.1",
     "tslib": "^2.5.0",
     "typescript": "^5.0.2"
