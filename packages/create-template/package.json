@@ -2,7 +2,7 @@
   "name": "@evenshry/create-template",
   "version": "1.0.1",
   "packageManager": "yarn@3.5.0",
-  "description": "@hx/create-template",
+  "description": "@evenshry/create-template",
   "bin": {
     "@evenshry/create-template": "dist/main.js"
   },
@@ -13,13 +13,16 @@
   },
   "keywords": [
     "create",
-    "cli",
-    "hx"
+    "cli"
   ],
   "author": "evenshry",
   "type": "module",
-  "license": "ISC",
+  "license": "MIT",
   "release-it": {},
+  "repository": {
+    "type": "git",
+    "url": "https://gitee.com/evenshry/hx-template/tree/master/packages/create-template"
+  },
   "publishConfig": {
     "access": "public",
     "registry": "https://registry.npmjs.org/"
