@@ -1,6 +1,6 @@
 {
   "name": "@hx/create-template",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "packageManager": "yarn@3.5.0",
   "description": "@hx/create-template",
   "bin": {
