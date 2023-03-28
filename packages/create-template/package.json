@@ -1,6 +1,6 @@
 {
   "name": "@evenshry/create-template",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "@evenshry/create-template",
   "bin": {
     "create-template": "dist/main.js"
