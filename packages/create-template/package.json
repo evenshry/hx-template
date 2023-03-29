@@ -10,7 +10,7 @@
     "dev": "npm run build && node dist/main.js",
     "build": "tsc && npm run copy",
     "copy": "node copyTemplate.js",
-    "release": "release-it"
+    "release": "npm run build && release-it"
   },
   "keywords": [
     "create",
