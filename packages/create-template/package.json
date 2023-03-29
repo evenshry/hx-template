@@ -7,8 +7,9 @@
   },
   "main": "dist/main.js",
   "scripts": {
-    "dev": "tsc && node dist/main.js",
-    "build": "tsc",
+    "dev": "npm run build && node dist/main.js",
+    "build": "tsc && npm run copy",
+    "copy": "node copyTemplate.js",
     "release": "release-it"
   },
   "keywords": [
@@ -31,15 +32,16 @@
     "registry": "https://registry.npmjs.org/"
   },
   "dependencies": {
-    "@types/command-line-args": "^5.2.0",
-    "@types/command-line-usage": "^5.0.2",
-    "@types/prompts": "^2.4.3",
     "chalk": "^5.2.0",
     "command-line-args": "^5.2.1",
     "command-line-usage": "^7.0.1",
-    "download-git-repo": "^3.0.2",
     "ora": "^6.2.0",
-    "prompts": "^2.4.2",
+    "prompts": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/command-line-args": "^5.2.0",
+    "@types/command-line-usage": "^5.0.2",
+    "@types/prompts": "^2.4.3",
     "release-it": "^15.9.1",
     "typescript": "^5.0.2"
   }
