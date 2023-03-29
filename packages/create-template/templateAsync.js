@@ -7,9 +7,11 @@ import { dirname, resolve } from "path";
 // 获取当前文件夹
 const __dirname = dirname(fileURLToPath(import.meta.url));
 // packages项目列表目录
-const packagesPath = resolve(__dirname, "template/");
+const packagesPath = resolve(__dirname, "../");
 // CLI项目模版目录
 const destinationPath = resolve(__dirname, "dist/template/");
+// 忽略列表
+const ignoreList = ["node_modules", ".DS_Store"];
 
 /**
  * 拷贝模版
@@ -23,10 +25,12 @@ async function copyDirFiles(sourcePath, destPath) {
     // 循环复制子目录或文件
     for (let i = 0; i < files.length; i++) {
       const file = files[i];
+      if (!ignoreList.includes(file.name)) {
       const source = sourcePath + "/" + file.name;
       const dest = destPath + "/" + file.name;
       await fs.cpSync(source, dest, { recursive: true });
       console.log(chalk.green(file.name + " asynced."));
+      }
     }
   } catch (error) {
     console.log(chalk.red(error));

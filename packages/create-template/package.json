@@ -8,8 +8,8 @@
   "main": "dist/main.js",
   "scripts": {
     "dev": "npm run build && node dist/main.js",
-    "build": "tsc && npm run copy",
-    "copy": "node copyTemplate.js",
+    "build": "tsc && npm run async",
+    "async": "node templateAsync.js",
     "release": "npm run build && release-it"
   },
   "keywords": [
