@@ -1,14 +1,13 @@
 #! /usr/bin/env node
 import chalk from "chalk";
 import fs from "fs";
-import path from "path";
-import { fileURLToPath } from "node:url";
-import { dirname } from "node:path";
+import { fileURLToPath } from "url";
+import { dirname, resolve } from "path";
 
 // 获取当前文件夹
 const __dirname = dirname(fileURLToPath(import.meta.url));
 // 回到项目根目录
-const basePath = path.resolve(__dirname, "../../");
+const basePath = resolve(__dirname, "../../");
 
 /**
  * 执行
